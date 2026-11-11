@@ -1,3 +1,10 @@
+# Copyright (c) 2026 IA-PROP (I.A-PROP SPA, Chile) <contacto@ia-prop.com>. All rights reserved.
+# Originally designed and developed by Victor Bastías Escobar <victor.bastiasescobar@gmail.com> (https://vicbas.com).
+# All economic rights over this module were assigned to IA-PROP (https://ia-prop.com) in November 2026.
+# Authorship attribution to Victor Bastías Escobar is permanent and may not be removed.
+# See COPYRIGHT.md for the full copyright and intellectual property notice.
+# Third-party exceptions: see "Third-Party Exceptions for This Module" in COPYRIGHT.md.
+
 # Odoo __manifest__.py must be a bare dict literal (read via ast.literal_eval);
 # the "useless/unused expression" warnings are unavoidable false positives,
 # suppressed below for both ruff (B018) and Pyright.
@@ -35,10 +42,10 @@ are not migrated). Security groups are kept (they gate the new chatter
 tool). Note: Odoo keeps the old table on update — see the README deploy
 runbook to drop it explicitly and reclaim the space.
         """,
-    "author": "Victor Bastías Escobar",
-    "website": "https://vicbas.com",
-    "support": "contacto@vicbas.com",
-    "maintainer": "Victor Bastías Escobar",
+    'author': 'Victor Bastías Escobar <victor.bastiasescobar@gmail.com> (https://vicbas.com)',
+    'website': 'https://ia-prop.com',
+    'support': 'contacto@ia-prop.com',
+    'maintainer': 'IA-PROP — I.A-PROP SPA, Chile <contacto@ia-prop.com> (https://ia-prop.com)',
     "license": "LGPL-3",
     "depends": [
         "web",
